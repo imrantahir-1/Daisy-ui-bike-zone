@@ -79,7 +79,7 @@
         <div class="carousel h-[500px] w-full bg-bike-primary-bg mt-16">
             <!-- slaider-1 -->
             <div id="slide1" class="carousel-item relative w-full">
-              <div class="flex p-24">
+              <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
                 <div class="space-y-7">
                      <h2 class="text-6xl font-bold">Ride-On R15 V4
                         <br> With Smail</h2>
@@ -97,7 +97,7 @@
             </div> 
             <!-- slider-2 -->
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="flex p-24">
+                <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
                     <div class="space-y-7">
                          <h2 class="text-6xl font-bold">Ride-On R15 V4
                             <br> With Smail</h2>
@@ -116,7 +116,7 @@
             </div> 
             <!-- slaider-3 -->
             <div id="slide3" class="carousel-item relative w-full">
-                <div class="flex p-24">
+                <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
                     <div class="space-y-7">
                          <h2 class="text-6xl font-bold">Ride-On R15 V4
                             <br> With Smail</h2>
@@ -134,7 +134,7 @@
             </div> 
             <!-- slaider-4 -->
             <div id="slide4" class="carousel-item relative w-full">
-                <div class="flex p-24">
+                <div class="flex flex-col lg:flex-row gap-20 lg:p-24 p-4">
                     <div class="space-y-7">
                          <h2 class="text-6xl font-bold">Ride-On R15 V4
                             <br> With Smail</h2>
@@ -155,9 +155,55 @@
 
 
     <main class="md:container md:mx-auto">
-        <!--  -->
-        <section>
+        <!-- featured section started -->
+        <!-- <section>
+             <div class="flex space-x-80">
+                <img src="./images/others/feature-bike.png" alt="">
+                <img src="./images/others/feature-bike.png" alt="">
+                <img src="./images/others/feature-bike.png" alt="">
+             </div>
+        </section> -->
 
+          <!-- card section -->
+        <section class="my-24 ">
+          <h3 class="text-5xl font-semibold text-center">latest Bike</h3>
+
+          <!-- first card -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:ml-20">
+            <div class="card w-96 bg-base-100 shadow-xl my-20">
+                <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-3xl font-medium">Ducati  XDIAVEL s-73</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus, aspernatur blanditiis dignissimos laborum et minus optio.</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <!-- second card -->
+            <div class="card w-96 bg-base-100 shadow-xl my-20">
+                <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-3xl font-medium">Motorcycles & Scooters</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus, aspernatur blanditiis dignissimos laborum et minus optio.</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Read More</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- third card -->
+            <div class="card w-96 bg-base-100 shadow-xl my-20">
+                <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-3xl font-medium">2021 Honda CBR500R</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus, aspernatur blanditiis dignissimos laborum et minus optio.</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Read More</button>
+                  </div>
+                </div>
+              </div>
+          </div>
         </section>
 
     </main>
